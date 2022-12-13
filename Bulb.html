@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>document</title>
+     </head>
+     <body>
+         <button onclick="turnon();">Turn On</button>
+          <img src="Bulboff.jpg" alt="Bulboff" id="Bulb" width="10%">
+          <button onclick="turnoff();">Turn Off</button>
+          <script>
+             var Bulb=document.getElementById("Bulb");
+             function turnon(){
+                 Bulb.src="Bulbon.jfif";
+             }
+             function turnoff(){
+                 Bulb.src="Bulboff.jpg";
+             }
+          </script>
+     </body>
+</html>
